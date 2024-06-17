@@ -1,0 +1,7 @@
+.faculty-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px; /* Adjust the space between cards as needed */
+  }
+  
