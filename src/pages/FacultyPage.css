@@ -1,5 +1,6 @@
 .faculty-cards-container {
-    display: flex;
+    display: flex; 
+    /* allows you to display elements vertically or horizontally */
     flex-wrap: wrap;
     justify-content: space-around;
     gap: 20px; /* Adjust the space between cards as needed */
