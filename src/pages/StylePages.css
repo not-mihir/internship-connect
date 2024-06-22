@@ -1,0 +1,29 @@
+.faculty-cards-container {
+    display: flex; 
+    /* allows you to display elements vertically or horizontally */
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px; /* Adjust the space between cards as needed */
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem 1rem;
+  width: 100%;
+  position: relative;
+  bottom: 100;
+}
+
+.footer .content {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .footer {
+    padding: 1rem;
+  }
+}
