@@ -1,26 +1,18 @@
 import React from 'react';
-<<<<<<< Updated upstream
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-=======
-import { Routes, Route } from 'react-router-dom';
-import './App.scss';
->>>>>>> Stashed changes
+import Faculty1 from './pages/Faculty1';
 import FacultyPage from './pages/FacultyPage';
 
 function App() {
   return (
-    <div className="App">
-<<<<<<< Updated upstream
-      <FacultyPage/>
-=======
-
+    <Router>
       <Routes>
+        <Route path="/faculty1" element={<Faculty1 />} />
         <Route path="/facultypage" element={<FacultyPage />} />
       </Routes>
-
->>>>>>> Stashed changes
-    </div>
+    </Router>
   );
 }
 

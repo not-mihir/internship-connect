@@ -10,7 +10,7 @@ export default class FacultyPage extends Component {
     return (
       <div>
         <Navbar/>
-        <h1>Faculty Information</h1>
+        <h1 className="heading">Faculty Information</h1>
         <div className="faculty-cards-container">
           <div className="card" style={{width: "20rem", height: "auto"}}>
             <img src={abhishek} className="card-img-top" alt="..."/>
@@ -21,7 +21,7 @@ export default class FacultyPage extends Component {
             <ul className="list-group list-group-flush">
               <li className="list-group-item">
                 <b>Specialization:-</b>
-                <p>Wireless Communication, Cyber-Physical Systems and Information Security</p>
+                <p>Reinforcement Learning, Deep Learning for Finance and Cyber Security, Wireless Communication, Cyber-Physical Systems, Information Security</p>
               </li>
             </ul>
           </div>
